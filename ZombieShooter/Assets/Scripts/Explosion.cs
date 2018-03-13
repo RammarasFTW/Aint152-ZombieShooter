@@ -8,9 +8,12 @@ public class Explosion : MonoBehaviour {
 	void Start () {
         Invoke("Die", destroyTime);
 	}
-	
+	void Die()
+    {
+        Destroy(gameObject);
+    }
 	// Update is called once per frame
 	void Update () {
-        Destroy(gameObject);
+     
 	}
 }

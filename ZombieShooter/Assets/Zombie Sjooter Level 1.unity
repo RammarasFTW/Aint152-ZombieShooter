@@ -352,8 +352,9 @@ GameObject:
   - component: {fileID: 1304418442}
   - component: {fileID: 1304418443}
   - component: {fileID: 1304418444}
+  - component: {fileID: 1304418445}
   m_Layer: 0
-  m_Name: Hero_fire_anim_0
+  m_Name: Hero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -509,6 +510,23 @@ MonoBehaviour:
     type: 2}
   bulletSpawn: {fileID: 427830026}
   fireTime: 0.25
+--- !u!95 &1304418445
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1304418436}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 55867004ca9cf2d459110635c043a52f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1362066040
 GameObject:
   m_ObjectHideFlags: 0
