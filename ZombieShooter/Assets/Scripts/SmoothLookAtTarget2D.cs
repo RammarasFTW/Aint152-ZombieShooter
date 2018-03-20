@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SmootLookAtTarget2D : MonoBehaviour {
+public class SmoothLookAtTarget2D : MonoBehaviour {
     public Transform target;
     public float smoothing = 5.0f;
     public float adjustmentAngle = 0.0f;
