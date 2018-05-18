@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerBehaviour : MonoBehaviour {
     public delegate void UpdateHealth(int newHealth);
@@ -40,7 +41,9 @@ public class PlayerBehaviour : MonoBehaviour {
         }
     }
 
-    void Die() { }
+    void Die() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
     void SendHealthData()
     {
         if (OnUpdateHealth != null)
